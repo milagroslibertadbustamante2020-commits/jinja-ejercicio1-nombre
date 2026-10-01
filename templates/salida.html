@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Salida{% endblock %}
+{% block content %}
+<h1>Salida</h1>
+<p>Hola, {{ nombre }} 👋</p>
+<p>Un gusto conocerte</p>
+<a href="{{ url_for('index') }}">Otro saludo</a>
+{% endblock %}
